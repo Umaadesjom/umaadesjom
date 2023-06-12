@@ -229,3 +229,9 @@ footer {
         color: #FFF;
     }
 }
+
+@media (max-width: 375px) {
+    .main p {
+        color: blue;
+    }
+}
