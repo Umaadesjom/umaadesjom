@@ -209,7 +209,7 @@ footer {
     text-transform: uppercase;
 }
 
-@media (min-height: 600px) {
+@media (max-height: 600px) {
     .logo img {
         width: 150px;
         height: 80px;
