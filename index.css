@@ -209,9 +209,23 @@ footer {
     text-transform: uppercase;
 }
 
-@media (min-height: 580px) {
+/*@media (min-height: 580px) {
     .logo img {
         width: 150px;
         height: 80px;
+    }
+}*/
+
+@media (max-width: 425px) {
+    .logo img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .main p {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #FFF;
     }
 }
