@@ -4,6 +4,7 @@
     0% {background: #a4c639;}
     50% {background: #a4c639;}
 }
+/* teste */
 
 * {
     margin: 0;
@@ -139,10 +140,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('assets/image/bg-gif.gif');
+    /* background-image: url('assets/image/bg-gif.gif');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .main p {
@@ -216,22 +217,96 @@ footer {
     }
 }*/
 
-@media (max-width: 425px) {
+@media (max-width: 428px) {
     .logo img {
-        width: 150px;
-        height: 100px;
+        width: 145px;
+        height: 95px;
     }
 
     .main p {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.9rem;
         font-weight: 700;
         color: #FFF;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
+    .logo img {
+        width: 140px;
+        height: 90px;
+    }
+
     .main p {
-        color: blue;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #FFF;
+    }
+
+    .redes img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text-footer {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .btn a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 60px;
+        text-decoration: none;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 30px;
+        border-radius: 15px;
+        animation: animButton 0.5s infinite;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo img {
+        width: 130px;
+        height: 80px;
+    }
+
+    .main p {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #FFF;
+    }
+
+    .redes img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .text-footer {
+        display: flex;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .btn a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 50px;
+        text-decoration: none;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 23px;
+        border-radius: 15px;
+        animation: animButton 0.5s infinite;
     }
 }
